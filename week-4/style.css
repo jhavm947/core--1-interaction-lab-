@@ -2,3 +2,8 @@ body {
   background-color: gainsboro;
   min-height: 100vh;
 }
+body {
+  margin: 2em;
+  font-size: 9em;
+  background-color: light blue;
+}
