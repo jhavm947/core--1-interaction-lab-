@@ -1,5 +1,9 @@
 body {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
   background-color: gainsboro;
   min-height: 100vh;
 }
@@ -9,11 +13,39 @@ h1 {
     font-size: 50px;
     text-align: center;
 }
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
     background-color: lightpink;
     min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+h1:hover {
+    color: purple;
+    text-shadow: 3px 3px 5px gray;
+}
+a{
+  text-decoration: none;
+  color: pink;
+}
+a:hover {
+  color: grey;
+}
+a:active {
+  text-transform: uppercase;
+}
+=======
+h2 {
+    color: darkgreen;
+    font-size: 30px;
+    box-shadow: 5px 5px 10px gray;
+}
+>>>>>>> Stashed changes
 
 >>>>>>> Stashed changes
