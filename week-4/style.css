@@ -1,6 +1,20 @@
 body {
-  background-color: gainsboro;
-  min-height: 100vh;
+    background-color: lightpink;
+    min-height: 100vh;
+}
+h1:hover {
+    color: purple;
+    text-shadow: 3px 3px 5px gray;
+}
+a{
+  text-decoration: none;
+  color: pink;
+}
+a:hover {
+  color: grey;
+}
+a:active {
+  text-transform: uppercase;
 }
 body {
   margin: 2em;
