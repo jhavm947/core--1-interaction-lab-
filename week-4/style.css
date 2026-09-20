@@ -2,17 +2,21 @@ body {
     background-color: lightpink;
     min-height: 100vh;
 }
+
 h1:hover {
     color: purple;
     text-shadow: 3px 3px 5px gray;
 }
-a{
-  text-decoration: none;
-  color: pink;
+
+a {
+    text-decoration: none;
+    color: pink;
 }
+
 a:hover {
-  color: grey;
+    color: grey;
 }
+
 a:active {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
