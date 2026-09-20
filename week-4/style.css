@@ -1,51 +1,20 @@
-body {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
-  background-color: gainsboro;
-  min-height: 100vh;
+p { background-color: white;
+   padding: 20px;
+   transition: 0.3s;
+  }
+p {box-shadow: 5px 5px 10px gray;
+  }
+p:hover { box-shadow: 10px 10px 20px 
+purple;
+transform: translateY(-5px);
+        }
+img {
+  filter: grayscale(100%);
+  mix-blend-mode: multiply;
+  transition: 0.4s;
 }
-h1 {
-
-    color: darkblue;
-    font-size: 50px;
-    text-align: center;
+img.hover { 
+filter: grayscale(0%);
+  transform:rotate(3deg)
+  scale(1.05);
 }
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-    background-color: lightpink;
-    min-height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-h1:hover {
-    color: purple;
-    text-shadow: 3px 3px 5px gray;
-}
-a{
-  text-decoration: none;
-  color: pink;
-}
-a:hover {
-  color: grey;
-}
-a:active {
-  text-transform: uppercase;
-}
-=======
-h2 {
-    color: darkgreen;
-    font-size: 30px;
-    box-shadow: 5px 5px 10px gray;
-}
->>>>>>> Stashed changes
-
->>>>>>> Stashed changes
