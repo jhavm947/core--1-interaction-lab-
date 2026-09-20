@@ -1,8 +1,7 @@
 body {
-    background-color: lightpink;
+    background color: lightpink;
     min-height: 100vh;
     padding: 40px;
-}
 
 h1 {
     transition: 0.3s;
@@ -14,18 +13,19 @@ h1:hover {
     transform: scale(1.1);
 }
 
-a {
-    color: darkred;
-    text-decoration: none;
+a { 
+    color: dark red;
+    text decoration: none;
     transition: 0.3s;
 }
 
 a:hover {
     color: white;
-    text-shadow: 2px 2px 4px purple;
+    text shadow: 2px 2px 4px purple;
 }
 
 a:active {
     color: black;
     text-transform: uppercase;
 }
+    
