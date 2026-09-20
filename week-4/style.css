@@ -1,3 +1,24 @@
+
+p { background-color: white;
+   padding: 20px;
+   transition: 0.3s;
+  }
+p {box-shadow: 5px 5px 10px gray;
+  }
+p:hover { box-shadow: 10px 10px 20px 
+purple;
+transform: translateY(-5px);
+        }
+img {
+  filter: grayscale(100%);
+  mix-blend-mode: multiply;
+  transition: 0.4s;
+}
+img.hover { 
+filter: grayscale(0%);
+  transform:rotate(3deg)
+  scale(1.05);
+  
 body {
     background color: lightpink;
     min-height: 100vh;
