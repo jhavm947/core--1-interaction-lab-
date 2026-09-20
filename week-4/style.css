@@ -1,23 +1,30 @@
 body {
-    background-color: lightpink;
+    background color: lightpink;
     min-height: 100vh;
+    padding: 40px;
+
+h1 {
+    transition: 0.3s;
 }
+
 h1:hover {
     color: purple;
     text-shadow: 3px 3px 5px gray;
+    transform: scale(1.1);
 }
-a{
-  text-decoration: none;
-  color: pink;
+
+a { 
+    color: dark red;
+    text decoration: none;
+    transition: 0.3s;
 }
+
 a:hover {
-  color: grey;
+    color: white;
+    text shadow: 2px 2px 4px purple;
 }
+
 a:active {
-  text-transform: uppercase;
-}
-body {
-  margin: 2em;
-  font-size: 9em;
-  background-color: light blue;
-}
+    color: black;
+    text-transform: uppercase;
+  }
